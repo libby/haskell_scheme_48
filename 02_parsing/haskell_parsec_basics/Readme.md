@@ -1,8 +1,11 @@
 ### [An introduction to parsing text in Haskell with Parsec](http://unbui.lt/#!/post/haskell-parsec-basics)
 The `haskell_parsec_basic` directory playground is what happened when I went through the above tutorial.
 While trying out 48 hour
-### minor mistakes in the tutorial
+
+### typos in the tutorial
 * import Text.Parsec (<|>) should be import Text.Parsec ((<|>))
+
+* myParserApp -> myParserApp2
 
 ### Quick list of things I learned going through this tutorial
 * loading file in the REPL

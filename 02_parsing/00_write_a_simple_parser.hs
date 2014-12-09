@@ -9,6 +9,8 @@ import Control.Monad (liftM)
     
     compile: ghc -o srcfiles/02_simple_parser 02_parsing/00_write_a_simple_parser.hs
     run:     srcfiles/02_simple_parser "\"coffee\""
+    run:     srcfiles/02_simple_parser "\"coffee \\" she said \\" \""
+
 --}
 
 -- step 1: parse a char.
